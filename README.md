@@ -180,7 +180,7 @@ Just type the keyword and press the tab to get a ready to modify function.
 
 
 ## Props (Properties)
-Props are properties and allows to send data from one component to other. It works one way and follow a uni-directional flow i.e, parent to child only.
+Props are properties and allows to send data from one component to other. It works one way and follow a uni-directional flow i.e, parent to child only. Props helps to make a component dynamic.
 
 Props are objects actually.
 
