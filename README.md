@@ -8,6 +8,11 @@
 - React is light weight and fast.
 - React offers One way data binding, parent sends response to children.
 
+## Note
+- React does not understand HTML. 
+- It understands JSX only which is HTML + JS.
+- JSX content must have one and only one parent. i.e. all the JSX content must be under a div finally.
+
 
 ## Who is behind React?
 React is a JavaScript library created by Facebook and its first public release was in July 2013..
@@ -37,6 +42,11 @@ Go to application folder first, then;
 
 A new browser window will pop up with your newly created React App! If not, open your browser and type localhost:3000 in the address bar.
 
+## Where we work in React
+1. We dont work on 'public/index.html' file.
+2. We create components say in the 'Components' folder.
+3. We import those components on 'src/App.js' file.
+4. This component is displayed through index.js file.
 
 
 ## React Components
@@ -70,11 +80,6 @@ class Blog extends Component
 export default Blog;
 ````
 
-5. First write import sattements.
-6. Next create class body
-7. In class write constructor first. This is the function which executes first.
-8. Next write render method with return statement inside.
-9. Export the class.
 
 
   
