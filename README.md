@@ -29,6 +29,11 @@ React finds out what changes have been made, and changes only what needs to be
 
 Raect can be included in HTML through its CDN to learn without installation. 
 
+## VSCode Extensions
+Usefull VSCode extension to help React programming
+
+- VS Code ES7+ React/Redux/React-Native/JS snippets (dsznajder)
+
 ## Creating a react app
 Open terminal or VSCode at folder where React project is to be created.
 > create-react-app app-name
@@ -153,6 +158,16 @@ export const Blog = () =>
 }
 
 ````
+
+### Creating a functional component with VSCode ES7 Extension
+**Function Type and Keyword**
+React Functional Component = *rfc*
+React Functional Component with Export = *rfce*
+
+React Arrow Functional Component = *rafc*
+React Arrow Functional Component with Export = *rafce*
+
+Just type the keyword and press the tab to get a ready to modify function.
 
 ## JSX
 - JSX is an extension to Javascript Language Syntax.
