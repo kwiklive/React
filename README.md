@@ -151,6 +151,19 @@ export const Blog = () =>
 
 ````
 
+## JSX
+- JSX is an extension to Javascript Language Syntax.
+- JSX = JavaScript + XML
+- JSX contain HTMLlike attributes. HTML attributes also work under JSX.
+- JSX requires every tag to be closd.
+- JSX requires a parent element above the content.
+
+// We can use React.createElement() instead of JSX to render HTML. But it is preferred to use JSX because React.createElement is difficult and lengthy to write.
+
+
+## Props
+
+
 
 
 
