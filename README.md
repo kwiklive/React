@@ -50,6 +50,22 @@ A new browser window will pop up with your newly created React App! If not, open
 
 
 ## React Components
+- Components are independent and reusable bit of code.
+- They serve same function as JS files.
+- They work in isolation and return HTML via a render function.
+- If we talk about a webpage, following are good candidates for components: Header, Navigation, SideMenu, Featured Product, Blog, Contact Form, Button, Footer.
+- Each component works individually.
+
+### Class Based Components
+- It is actually an ES6 class.
+- We use it to manage states, Private Object or Data. 
+- It can recieve props/arguments optionally and returns HTML.
+
+### Functional Components
+- These are mainly used to create UI.
+- These are actually javascript functions.
+- Receives props optionally.
+- It returns JSX always.
 
 ### Creating a Class Based React Component
 1. Let there will be a folder to keep components. So if not already created, create a folder 'Components' under ‘src'.
@@ -74,6 +90,27 @@ class Blog extends Component
             </div>
 		) 
 	}
+
+}
+
+export default Blog;
+````
+
+
+### Creating a Function Based React Component
+1. Let there will be a folder to keep components. So if not already created, create a folder 'Components' under ‘src'.
+2. Let Component name is Blog so create a file Blog.js under folder Components.
+3. On Blog.js file add this code for an example:
+
+````
+import React from ‘react’;
+
+function Blog()
+{
+	return(
+                <div>Title: React is the Best</div>
+                <div>Category: Web Programming</div>
+	) 
 
 }
 
