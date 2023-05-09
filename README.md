@@ -117,6 +117,42 @@ function Blog()
 export default Blog;
 ````
 
+We can write a functional component with arraow function also.
+
+````
+import React from ‘react’;
+
+const Blog = () =>
+{
+	return(
+                <div>Title: React is the Best</div>
+                <div>Category: Web Programming</div>
+	) 
+
+}
+
+export default Blog;
+````
+
+Above functions can be imported in any name. But if we want named export only, then write function this way. Now it will be used by name Blog only, not 'B' or anything else.
+
+
+````
+import React from ‘react’;
+
+export const Blog = () =>
+{
+	return(
+                <div>Title: React is the Best</div>
+                <div>Category: Web Programming</div>
+	) 
+
+}
+
+````
+
+
+
 
 
   
