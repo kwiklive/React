@@ -46,6 +46,7 @@ A new browser window will pop up with your newly created React App! If not, open
 2. Let Component name is Blog so create a file Blog.js under folder Components.
 3. On Blog.js file add this code for an example:
 
+````
 import React, {Component} from ‘react’;
 
 class Blog extends Component
@@ -67,7 +68,7 @@ class Blog extends Component
 }
 
 export default Blog;
-
+````
 
 5. First write import sattements.
 6. Next create class body
