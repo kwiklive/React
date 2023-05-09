@@ -40,6 +40,42 @@ A new browser window will pop up with your newly created React App! If not, open
 
 
 ## React Components
+
+### Creating a Class Based React Component
+1. Let there will be a folder to keep components. So if not already created, create a folder 'Components' under ‘src'.
+2. Let Component name is Blog so create a file Blog.js under folder Components.
+3. On Blog.js file add this code for an example:
+
+import React, {Component} from ‘react’;
+
+class Blog extends Component
+{
+
+  // Constructor will be added here
+  
+  // Render
+	render() {
+		
+		return(
+            <div>
+                <div>Title: React is the Best</div>
+                <div>Category: Web Programming</div>
+            </div>
+		) 
+	}
+
+}
+
+export default Blog;
+
+
+5. First write import sattements.
+6. Next create class body
+7. In class write constructor first. This is the function which executes first.
+8. Next write render method with return statement inside.
+9. Export the class.
+
+
   
   
   
