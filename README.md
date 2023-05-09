@@ -8,6 +8,7 @@
 - React is light weight and fast.
 - React offers One way data binding, parent sends response to children.
 
+
 ## Note
 - React does not understand HTML. 
 - It understands JSX only which is HTML + JS.
@@ -54,7 +55,9 @@ A new browser window will pop up with your newly created React App! If not, open
 - They serve same function as JS files.
 - They work in isolation and return HTML via a render function.
 - If we talk about a webpage, following are good candidates for components: Header, Navigation, SideMenu, Featured Product, Blog, Contact Form, Button, Footer.
-- Each component works individually.
+
+React is a component based library. It enables to divide our UI in smaller reusable components. Let we have a 'Call to Action' UI component with a text and button. It will have same layout, colors style and structure for all the services except text and the button. These two will change for a service. This we achieve with props.
+
 
 ### Class Based Components
 - It is actually an ES6 class.
@@ -161,10 +164,60 @@ export const Blog = () =>
 // We can use React.createElement() instead of JSX to render HTML. But it is preferred to use JSX because React.createElement is difficult and lengthy to write.
 
 
-## Props
+## Props (Properties)
+Props are properties and allows to send data from one component to other. It works one way and follow a uni-directional flow i.e, parent to child only.
 
+### Passing props to class based component
 
+Code example in App.js
 
+````  
+return (
+    <div className='App'>
+      <Person name="Adam" />
+      <Person name="Brave" age="20"/>
+    </div>
+  );
+````
+
+Example Component file
+
+````
+
+import React, { Component } from 'react'
+
+class User extends Component{
+
+    constructor(props){
+         super(props);
+         this.props = props;
+     }
+
+    render(){
+
+        return(
+            <div>
+                <div>My name is: { this.props.name }</div>
+                <div>My age is: {this.props.age} years</div>
+            </div>
+        )
+
+    }
+
+}
+
+export default Person;
+
+````
+
+Result
+
+My name is: Adam
+My age is: Years
+My name is: Brave
+My age is: 20 Years
+
+Note that, when props is not available it just keeps the blank instead of showing any error.
 
 
 
