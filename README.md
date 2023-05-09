@@ -26,7 +26,9 @@ Raect can be included in HTML through its CDN to learn without installation.
 ## Creating a react app
 Open terminal or VSCode at folder where React project is to be created.
 > create-react-app app-name
+
 or
+
 > npx create-react-app app-name
 
 ## Starting a react app
