@@ -213,8 +213,11 @@ export default Person;
 Result
 
 My name is: Adam
+
 My age is: Years
+
 My name is: Brave
+
 My age is: 20 Years
 
 Note that, when props is not available it just keeps the blank instead of showing any error.
