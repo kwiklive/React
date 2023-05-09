@@ -239,6 +239,55 @@ My age is: 20 Years
 
 Note that, when props is not available it just keeps the blank instead of showing any error.
 
+## State
+State is an in-built object in the class based componnets. Function based components are stateless. Hooks are used in functions based components to use the state.
+
+State is treated as component specific private data and only accessible inside the component it belongs to. It is not accessible to any other class or anywhere else.
+
+State is mutable and can be changed as per requirement.
+State 'state holds' the data for the component.  To access this data, it need to be sent with the help of props.
+
+### How to use state
+1. In class base components: this.state
+2. In functions base components: useState. (This is a hook)
+
+### How to create state
+In App.js
+
+``
+function App() {
+  return (
+    <div className='App'>
+      <User />
+    </div>
+  );
+}
+``
+
+In User.js. (It is class based component)
+Add following to constructor:
+
+``
+         this.state = {
+            name: "Bob",
+            age: 24
+         }
+
+``
+
+Add following as return function under render
+
+``
+        return(
+            <div>
+                <div>User name : {this.state.name}</div>
+                <div>User's age is: {this.state.age} years</div>
+            </div>
+        )
+
+``
+
+
 
 
   
