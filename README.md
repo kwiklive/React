@@ -23,9 +23,19 @@ React finds out what changes have been made, and changes only what needs to be
 
 Raect can be included in HTML through its CDN to learn without installation. 
 
-## Creating a react project
+## Creating a react app
 Open terminal or VSCode at folder where React project is to be created.
 > create-react-app app-name
+or
+> npx create-react-app app-name
+
+## Starting a react app
+Go to application folder first, then;
+> npm start
+
+A new browser window will pop up with your newly created React App! If not, open your browser and type localhost:3000 in the address bar.
+
+
 
 ## React Components
   
