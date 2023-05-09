@@ -254,7 +254,7 @@ State 'state holds' the data for the component.  To access this data, it need to
 ### How to create state
 In App.js
 
-``
+````
 function App() {
   return (
     <div className='App'>
@@ -262,22 +262,22 @@ function App() {
     </div>
   );
 }
-``
+````
 
 In User.js. (It is class based component)
 Add following to constructor:
 
-``
+````
          this.state = {
             name: "Bob",
             age: 24
          }
 
-``
+````
 
 Add following as return function under render
 
-``
+````
         return(
             <div>
                 <div>User name : {this.state.name}</div>
@@ -285,7 +285,7 @@ Add following as return function under render
             </div>
         )
 
-``
+````
 
 
 
