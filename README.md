@@ -288,6 +288,42 @@ Add following as return function under render
 ````
 
 
+### How to change state & re-render
+
+In User.js. (It is class based component)
+Add following to constructor:
+
+````
+         this.state = {
+            name: "Bob",
+            age: 24
+         }
+	 
+     changeState() {
+        this.setState({
+            name: "Alex",
+            age: 35
+        });
+     }
+	 
+
+````
+
+Add a button with onClick event...
+
+````
+        return(
+            <div>
+                <div>User name : {this.state.name}</div>
+                <div>User's age is: {this.state.age} years</div>
+		<br/>
+		<button onClick={this.changeState.bind(this)}>Change State</button>
+            </div>
+        )
+
+````
+
+
 
 
   
