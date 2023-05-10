@@ -329,16 +329,22 @@ We use arrow function here. Using simple function is not good because 'this' key
 
 **Method 1**
 
-> <button onClick={() => this.changeState()}>Change State</button>
+````
+<button onClick={() => this.changeState()}>Change State</button>
+````
 
 **Method 2: Inline Binding**
 
-> <button onClick={this.changeState.bind(this)}>Change State</button>
+````
+<button onClick={this.changeState.bind(this)}>Change State</button>
+````
 
 **Method 3: Inline Binding**
 Simply write like this and binding will happen under constructor.
 
-> <button onClick={this.changeState}>Change State</button>
+````
+<button onClick={this.changeState}>Change State</button>
+````
 
 
 ````
@@ -352,7 +358,9 @@ this.changeState = this.changeState.bind(this);
 **Method 4**
 We used already. We wrote this:
 
-> <button onClick={this.changeState.bind(this)}>Change State</button>
+````
+<button onClick={this.changeState.bind(this)}>Change State</button>
+````
 
 with arrow function binding.
 
