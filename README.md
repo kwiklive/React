@@ -266,7 +266,8 @@ function App() {
 ````
 
 In User.js. (It is class based component)
-Add following to constructor:
+
+**Add following to constructor:**
 
 ````
          this.state = {
@@ -276,7 +277,7 @@ Add following to constructor:
 
 ````
 
-Add following as return function under render
+**Add following as return function under render**
 
 ````
         return(
@@ -292,7 +293,8 @@ Add following as return function under render
 ### How to change state & re-render
 
 In User.js. (It is class based component)
-Add following to constructor:
+
+**Add following to constructor:**
 
 ````
          this.state = {
@@ -310,7 +312,7 @@ Add following to constructor:
 
 ````
 
-Add a button with onClick event...
+**Add a button with onClick event...**
 
 ````
         return(
