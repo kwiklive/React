@@ -420,6 +420,24 @@ Instead of writing an object name in point 1 above, simply put two {{ }} and ins
 ````
 
 ## Best method for CSS implementation. (CSS Module)
+
+Actually purpose here is that User.css must apply to User.js only not to other components too. For this:
+1. Rename 'User.css' to 'User.module.css'.
+2. Reimport it giving a name and correcting the file name.
+
+````
+import UserStyle from'./Components/User/User.module..css';
+
+````
+
+Now refer everywhere with the name;
+
+<label className='outer'>
+
+will be replaced with:
+
+<label className='UserStyle.outer'>
+
 	
 	
 
