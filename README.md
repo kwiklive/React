@@ -9,6 +9,7 @@
 - React offers One way data binding, parent sends response to children.
 
 
+
 ## Note
 - React does not understand HTML. 
 - It understands JSX only which is HTML + JS.
