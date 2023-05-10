@@ -290,7 +290,7 @@ In User.js. (It is class based component)
 ````
 
 
-### How to change state & re-render
+### How to change state & re-render (State Mutation)
 
 In User.js. (It is class based component)
 
@@ -302,7 +302,7 @@ In User.js. (It is class based component)
             age: 24
          }
 	 
-     changeState() {
+     changeState = () => {
         this.setState({
             name: "Alex",
             age: 35
@@ -323,6 +323,46 @@ In User.js. (It is class based component)
 		<button onClick={this.changeState.bind(this)}>Change State</button>
             </div>
         )
+
+````
+We use arrow function here. Using simple function is not good because 'this' keyword gets rebind. But if really want to use simple function here we can achieve the result using event binding methods.
+
+**Method 1**
+
+> <button onClick={() => this.changeState()}>Change State</button>
+
+**Method 2: Inline Binding**
+
+> <button onClick={this.changeState.bind(this)}>Change State</button>
+
+**Method 3: Inline Binding**
+Simply write like this and binding will happen under constructor.
+
+> <button onClick={this.changeState}>Change State</button>
+
+
+````
+this.state={};
+.....
+
+this.changeState = this.changeState.bind(this);
+
+````
+
+**Method 4**
+We used already. We wrote this:
+
+> <button onClick={this.changeState.bind(this)}>Change State</button>
+
+with arrow function binding.
+
+````
+     changeState = () => {
+        this.setState({
+            name: "Alex",
+            age: 35
+        });
+     }
 
 ````
 
