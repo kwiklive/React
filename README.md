@@ -432,12 +432,15 @@ import UserStyle from'./Components/User/User.module..css';
 
 Now refer everywhere with the name;
 
+````
 <label className='outer'>
-
+````
+	
 will be replaced with:
 
+````
 <label className='UserStyle.outer'>
-
+````
 	
 	
 
