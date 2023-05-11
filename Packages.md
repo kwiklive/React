@@ -18,6 +18,7 @@ Axios is a promise-based HTTP Client for node.js and the browser. It is isomorph
 
 
 ## REDUX
+Redux is a third party state management library. It can be used with the technologies other than React but mostly it is used with React.
 
 [REDUX] https://redux.js.org/faq/general#when-should-i-learn-redux
 
