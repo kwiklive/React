@@ -30,10 +30,6 @@ React finds out what changes have been made, and changes only what needs to be
 
 Raect can be included in HTML through its CDN to learn without installation. 
 
-## VSCode Extensions
-Usefull VSCode extension to help React programming
-
-- VS Code ES7+ React/Redux/React-Native/JS snippets (dsznajder)
 
 ## Creating a react app
 Open terminal or VSCode at folder where React project is to be created.
