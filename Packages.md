@@ -11,3 +11,6 @@ Axios is a promise-based HTTP Client for node.js and the browser. It is isomorph
 - Using NPM (Project Basis)
 > npm install axios --s
 
+**Using Axios**
+- Import
+> import axios from 'axios'; 
