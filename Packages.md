@@ -14,3 +14,13 @@ Axios is a promise-based HTTP Client for node.js and the browser. It is isomorph
 **Using Axios**
 - Import
 > import axios from 'axios'; 
+
+
+## REDUX
+
+[REDUX] https://redux.js.org/faq/general#when-should-i-learn-redux
+
+**Installation**
+
+**Using Redux**
+
