@@ -183,13 +183,13 @@ Props are objects actually.
 
 ### Passing props to class based component
 
-Code example in App.js
+Code example in Index.js
 
 ````  
 return (
     <div className='App'>
-      <Person name="Adam" />
-      <Person name="Brave" age="20"/>
+      <User name="Adam" />
+      <User name="Brave" age="20"/>
     </div>
   );
 ````
