@@ -287,7 +287,7 @@ State 'state holds' the data for the component.  To access this data, it need to
 2. In functions base components: useState. (This is a hook)
 
 ### How to create state
-In App.js
+In Index.js
 
 ````
 function App() {
@@ -311,6 +311,7 @@ In User.js. (It is class based component)
 
 ````
 
+In User.Js
 **Add following as return function under render**
 
 ````
