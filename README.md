@@ -236,6 +236,44 @@ My age is: 20 Years
 
 Note that, when props is not available it just keeps the blank instead of showing any error.
 
+
+
+### Passing props to functional component
+
+Code example in Index.js or App.js
+
+````  
+return (
+    <div className='App'>
+      <Person name="Adam" />
+      <Person name="Brave" age="20"/>
+    </div>
+  );
+````
+
+Example Component file
+
+````
+
+import React from 'react'
+
+const User = () => {
+
+        return(
+            <div>
+                <div>My name is: { props.name }</div>
+                <div>My age is: {props.age} years</div>
+            </div>
+        )
+
+}
+
+export default User;
+
+````
+
+
+
 ## State
 State is an in-built object in the class based componnets. Function based components are stateless. Hooks are used in functions based components to use the state.
 
