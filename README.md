@@ -12,7 +12,7 @@
 
 ## Note
 - React does not understand HTML. 
-- It understands JSX only which is HTML + JS.
+- It understands JSX only which is JS + XML.
 - JSX content must have one and only one parent. i.e. all the JSX content must be under a div finally.
 
 
@@ -240,13 +240,13 @@ Note that, when props is not available it just keeps the blank instead of showin
 
 ### Passing props to functional component
 
-Code example in Index.js or App.js
+Code example in Index.js
 
 ````  
 return (
     <div className='App'>
-      <Person name="Adam" />
-      <Person name="Brave" age="20"/>
+      <User name="Adam" />
+      <User name="Brave" age="20"/>
     </div>
   );
 ````
